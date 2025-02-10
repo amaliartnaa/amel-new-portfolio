@@ -1,6 +1,6 @@
 # 📌 Portfolio Website
 
-This is the repository for my portfolio website, showcasing my projects, skills, and experience as a software developer.
+This is the repository for my portfolio website, showcasing my projects, skills, and experience as a software developer/engineer.
 
 ## 🚀 Technologies Used
 
