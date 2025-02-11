@@ -1,19 +1,17 @@
 'use client';
 
-import Head from 'next/head';
 import * as React from 'react';
 import '@/lib/env';
+
+import Home from '@/components/Home';
+import Navbar from '@/components/Navbar';
 
 export default function HomePage() {
   return (
     <main>
-      <Head>
-        <title>Hi</title>
-      </Head>
-      <section className='bg-white'>
-        <div className='layout relative flex min-h-screen flex-col items-center justify-center py-12 text-center'>
-          <h1>Hi</h1>
-        </div>
+      <section className='bg-black'>
+        <Navbar />
+        <Home />
       </section>
     </main>
   );
