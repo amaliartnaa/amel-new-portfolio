@@ -16,10 +16,8 @@ export default function Navbar() {
             Projects
           </p>
         </Link>
-        <Link href='/contact'>
-          <p className='text-white hover:text-neutral-300 transition'>
-            Contact
-          </p>
+        <Link href='/blog'>
+          <p className='text-white hover:text-neutral-300 transition'>Blog</p>
         </Link>
       </nav>
     </nav>
