@@ -8,10 +8,10 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      <div className='bg-black text-white flex flex-col justify-center items-start px-24 pb-16'>
+      <main className='bg-black text-white flex flex-col justify-center items-start px-24 pb-16'>
         <About />
         <Experience />
-      </div>
+      </main>
     </>
   );
 }
